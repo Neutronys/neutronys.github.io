@@ -1,0 +1,18 @@
+FONT:
+	font-family: "JetBrains Mono",monospace;
+	font-weight: 400;
+	line-height: 1.725;
+	text-rendering: geometricPrecision;
+	font-size: 1rem
+
+COLORS:
+	RED - color: #fb4e37;
+	ORANGE - color: #f78a50;
+	BEIGE - color: #fbf8da;
+	BACKGROUND - color: #1d1f21
+	PINK - color: #fc715f;
+	YELLOW - color: #fee779;
+
+
+GIT:
+	TOKEN - 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

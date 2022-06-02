@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "JetBrainsMono";
+	src: url('../fonts/JetBrainsMono-Regular.ttf');
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "JetBrainsMono", monospace;
+	font-weight: 400;
+	line-height: 1.725;
+	text-rendering: geometricPrecision;
+	font-size: 1rem;
+	background-color: #1d1f21;
+	color: #c9cacc;
+}
+.mx-auto {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 48rem;
+	padding-right: 4rem;
+	padding-left: 4rem;
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	text-align: justify;
+}
+header div a {
+	border-right: 1px dashed #fd9587;
+	padding-right: 20px;
+	margin-right: 10px;
+	color: #fd9587;
+}
+h1 {
+	color: #ffffff;
+}
+.menu {
+	position: fixed;
+	top: 4rem;
+	left: 2rem;
+	max-width: 24em;
+	color: #ffffff;
+}
+.menu nav ul li a span {
+	color: #fee779;
+}
+.menu nav ul li span {
+	color: #fb4e37;
+}
+.menu nav ul li {
+	list-style-type: none;
+	font-size: 0.8rem;
+}
+.menu nav ul li ul li {
+	transition: 0.3s;
+	color: #f78a50;
+}
+.menu nav ul li ul li:hover {
+	transition: 0.3s;
+	color: #fbf8da;
+	cursor: pointer;
+}
+.submenu {
+	padding-left: 20px;
+}
